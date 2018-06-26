@@ -58,7 +58,7 @@
     "develop": "gatsby develop",
     "new-post": "create-post --date-format 'YYYY-MM-DD[-]' --root='content/posts'",
     "devhost": "gatsby develop --host 192.168.0.112",
-    "deploy": "gatsby build && gh-pages -d public -o live -b master -a",
+    "deploy": "gatsby build && gh-pages -d public -o live -b master",
     "format": "prettier --write 'src/**/*.js'",
     "lint-errors": "eslint src/**/*.{js,jsx} --quiet",
     "lint": "eslint src/**/*.{js,jsx}",
