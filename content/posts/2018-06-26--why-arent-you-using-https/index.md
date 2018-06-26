@@ -6,3 +6,5 @@ author: Luke Oliff
 ---
 
 ~ TBC ~
+
+![img](./computer-technology.jpg)
