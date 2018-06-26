@@ -2,9 +2,9 @@
 title: footnote
 ---
 
-* it's a demo site of the [gatsby-starter-hero-blog](https://github.com/greglobinski/gatsby-starter-hero-blog)
-* built by [greg lobinski](https://www.greglobinski.com)
-* Check [Front-end web development with Greg](https://dev.greglobinski.com)
-* deliverd by [Netlify](https://www.netlify.com/)
-* photos by [unsplash.com](https://unsplash.com)
-* graphic by [pixabay.com](https://pixabay.com)
+* owned by [Luke Oliff](https://lukeoliff.com/)
+* powered by [GatsbyJS](https://www.gatsbyjs.org/)
+* hosted by [GitHub Pages](https://pages.github.com/)
+* cached and secured by [Cloudflare](https://www.cloudflare.com/)
+* graphics from [pxhere.com](https://pxhere.com)
+* base site by [greg lobinski](https://www.greglobinski.com)
