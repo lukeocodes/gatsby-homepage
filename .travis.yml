@@ -6,6 +6,6 @@ cache:
   - node_modules
 script:
   - yarn
-  - gatsby build && gh-pages -d public -o live -b master -r "https://${GH_TOKEN}@github.com/lukeoliff/lukeoliff.github.io.git"
+  - gatsby build && gh-pages -d public -o live -b master -r "https://${GH_TOKEN}@github.com/lukeoliff/lukeoliff.github.io.git" -m "Build: ${TRAVIS_BUILD_NUMBER}, ${TRAVIS_COMMIT_MESSAGE}"
 after_success:
   - bash scripts/clear-cache.sh -k "$CF_KEY" -e "$CF_EMAIL" -z "$CF_ZONE"
