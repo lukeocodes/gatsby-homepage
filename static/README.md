@@ -8,7 +8,7 @@ Built to demonstrate that you can built an easy-to-use and secure website for fr
 
 ## Contributing
 
-See [CODE_OF_CONDUCT.md](.github/CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](.github/CONTRIBUTING.md) before submitting a PR.
+See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a PR.
 
 ## License
 
