@@ -6,11 +6,4 @@ cache:
   - node_modules
 script:
   - yarn
-  - yarn build
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GH_TOKEN
-  keep-history: true
-  on:
-    branch: master
+  - gatsby build --prefix-links && gh-pages -d public -o live -b master -r "https://${GH_TOKEN}@github.com/lukeoliff/lukeoliff.github.io.git"
