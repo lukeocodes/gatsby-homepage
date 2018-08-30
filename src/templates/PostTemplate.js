@@ -60,6 +60,11 @@ export const postQuery = graphql`
         prefix
       }
       frontmatter {
+        link {
+          rel
+          href
+        }
+        description
         title
         author
         category
