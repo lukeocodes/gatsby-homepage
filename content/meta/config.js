@@ -3,6 +3,10 @@ module.exports = {
   shortSiteTitle: "Luke Oliff", // <title> ending for posts and pages
   siteDescription: "Luke Oliff.",
   siteUrl: "https://lukeoliff.com",
+  siteLink: {
+    rel: "canonical",
+    href: "https://lukeoliff.com"
+  },
   pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
