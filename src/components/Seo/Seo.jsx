@@ -9,11 +9,13 @@ const Seo = props => {
   const postDescription = ((data || {}).frontmatter || {}).description;
   const postCover = ((data || {}).frontmatter || {}).cover;
   const postSlug = ((data || {}).fields || {}).slug;
+  const postLink = ((data || {}).frontmatter || {}).link;
 
   const title = postTitle ? `${postTitle} - ${config.shortSiteTitle}` : config.siteTitle;
   const description = postDescription ? postDescription : config.siteDescription;
   const image = postCover ? postCover : config.siteImage;
   const url = config.siteUrl + config.pathPrefix + postSlug;
+  const link = postLink ? postLink : config.siteLink;
 
   return (
     <Helmet
@@ -38,6 +40,9 @@ const Seo = props => {
         name="twitter:creator"
         content={config.authorTwitterAccount ? config.authorTwitterAccount : ""}
       />
+      {!!link &&
+        <link rel={link.rel} href={link.href} />
+      }
     </Helmet>
   );
 };
