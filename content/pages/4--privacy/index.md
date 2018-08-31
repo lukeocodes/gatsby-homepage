@@ -1,8 +1,6 @@
 ---
-title: Privacy Policy of lukeoliff.com
+title: Privacy Policy
 ---
-
-## Privacy Policy of lukeoliff.com
 
 This Application collects some Personal Data from its Users.
 
