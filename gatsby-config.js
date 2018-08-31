@@ -1,11 +1,11 @@
 require("dotenv").config();
 const config = require("./content/meta/config");
+const transformer = require("./src/utils/algolia");
 
 const query = `{
   allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/posts|pages/[0-9]+.*--/"}}) {
     edges {
       node {
-        objectID: fileAbsolutePath
         fields {
           slug
         }
@@ -23,7 +23,9 @@ const query = `{
 const queries = [
   {
     query,
-    transformer: ({ data }) => data.allMarkdownRemark.edges.map(({ node }) => node)
+    transformer: ({ data }) => {
+      return data.allMarkdownRemark.edges.reduce(transformer, []);
+    }
   }
 ];
 
