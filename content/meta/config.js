@@ -1,21 +1,21 @@
 module.exports = {
-  siteTitle: "Luke Oliff", // <title>
-  shortSiteTitle: "Luke Oliff", // <title> ending for posts and pages
-  siteDescription: "Luke Oliff.",
+  siteTitle: "dad, technical writer, security advocate - Luke Oliff", // <title>
+  shortSiteTitle: "technical writer - Luke Oliff", // <title> ending for posts and pages
+  siteDescription: "dad, technical writer, security advocate - writing about digital transformation, software security and new technology",
   siteUrl: "https://lukeoliff.com",
   siteLink: {
     rel: "canonical",
     href: "https://lukeoliff.com"
   },
   pathPrefix: "",
-  siteImage: "preview.jpg",
+  siteImage: "preview.png",
   siteLanguage: "en",
   // author
   authorName: "Luke Oliff",
   authorTwitterAccount: "mroliff",
   // info
   headerTitle: "Luke Oliff",
-  headerSubTitle: "technical writer, security advocate, guy who talks on Slack too much",
+  headerSubTitle: "dad, technical writer, security advocate",
   // manifest.json
   manifestName: "Luke Oliff",
   manifestShortName: "Luke Oliff", // max 12 characters
