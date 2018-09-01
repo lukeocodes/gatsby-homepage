@@ -41,8 +41,6 @@ Double-click on your downloaded **NodeJS** package and install it.
 
 Nothing to install this time. But, take a look at what Terminal looks like.
 
-{% include tweet_quote.html quote_text="This guide is designed for non-devs and will show you a sample project and help you finish setting up authentication. Exciting!" %}
-
 Press **Command+Space** together. This opens *Spotlight Search*, where you can type ***Terminal*** and press enter. This opens up ***Terminal*** for you.
 
 ![Use Spotlight to open Terminal](./use-spotlight-to-open-terminal.png)
@@ -184,8 +182,6 @@ Try and sign up with an email address not inside the domain you just limited it 
 
 By now you should be a pro! Right?
 
-{% include tweet_quote.html quote_text="Become a pro! Or, not? Maybe just see how quickly even non-devs can setup Auth0 as an identity and access management provider." %}
-
 If you've got this far and you've skipped some labs, or struggled to even get started; don't be disheartened or dismayed. This is a programming guide for people who are not programmers. Use our comments section below to get in touch with any questions you might have.
 
 The Auth0 features and products we've covered are:
@@ -224,7 +220,11 @@ We've used an [Auth0 Rule](https://auth0.com/docs/rules/current) to restrict sig
 
 Rules are functions written in JavaScript that are executed when a user authenticates to your application. They run once the authentication process is complete and you can use them to customize and extend Auth0's capabilities. They can be chained together for modular coding and can be turned on and off individually.
 
-{% include asides/about-auth0.markdown %}
+## About Auth0
+
+Auth0, a global leader in Identity-as-a-Service (IDaaS), provides thousands of enterprise customers with a Universal Identity Platform for their web, mobile, IoT, and internal applications. Its extensible platform seamlessly authenticates and secures more than 1.5B logins per month, making it loved by developers and trusted by global enterprises. The company's U.S. headquarters in Bellevue, WA, and additional offices in Buenos Aires, London, Tokyo, and Sydney, support its customers that are located in 70+ countries.
+
+For more information, visit [https://auth0.com](https://auth0.com/) or follow [@auth0 on Twitter](https://twitter.com/auth0).
 
 <div style="margin: 1000px 0; display: block; text-transform: uppercase; text-align: center;">~ Keep scrolling for answers ~</div>
 
