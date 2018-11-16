@@ -341,7 +341,7 @@ The [Auth0 login page](https://auth0.com/docs/hosted-pages/login) is the easiest
 
 ### Sign Up for Auth0
 
-You'll need an [Auth0](https://auth0.com) account to manage authentication. You can <a href="https://auth0.com/signup" data-amp-replace="CLIENT_ID" data-amp-addparams="anonId=CLIENT_ID(cid-scope-cookie-fallback-name)">sign up for a free Auth0 account here</a>. Next, set up an Auth0 Application so Auth0 can interface with your app.
+You'll need an [Auth0](https://auth0.com) account to manage authentication. You can <a href="https://auth0.com/signup">sign up for a free Auth0 account here</a>. Next, set up an Auth0 Application so Auth0 can interface with your app.
 
 ### Set Up an Application App
 
