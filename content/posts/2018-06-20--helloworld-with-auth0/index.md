@@ -59,7 +59,7 @@ Remember what you did here, because you'll need to get to use ***Terminal*** to 
 
 ## Lab 1 - Sign up for Auth0
 
-<a href="https://auth0.com/signup" data-amp-replace="CLIENT_ID" data-amp-addparams="anonId=CLIENT_ID(cid-scope-cookie-fallback-name)">Sign up for an Auth0 account</a>.
+<a href="https://auth0.com/signup">Sign up for an Auth0 account</a>.
 
 You can use an existing account, or an existing tenant, but I would recommend a nice clean place to start by signing up a fresh and creating a new tenant from there.
 
