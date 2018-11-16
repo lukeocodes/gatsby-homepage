@@ -9,9 +9,9 @@ link:
   href: https://auth0.com/blog/common-threats-in-web-app-security/
 ---
 
-**This post is original content developed by me for the [Auth0's blog](https://auth0.com/blog) and has been re-posted here as part of an online portfolio with permission. Relevant attribution and canonical links exist. [Click here to see the original](https://auth0.com/blog/common-threats-in-web-app-security/).**
-
 **TL;DR:** In this article we'll attempt to cover a comprehensive security strategy for web applications to protect against common threats in web application security and mitigate their impact.
+
+**This post is original content developed by me for the [Auth0's blog](https://auth0.com/blog) and has been re-posted here as part of an online portfolio with permission. Relevant attribution and canonical links exist. [Click here to see the original](https://auth0.com/blog/common-threats-in-web-app-security/).**
 
 ---
 

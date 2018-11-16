@@ -9,9 +9,9 @@ link:
   href: https://auth0.com/blog/helloworld-with-auth0/
 ---
 
-**This post is original content developed by me for the [Auth0's blog](https://auth0.com/blog) and has been re-posted here as part of an online portfolio with permission. Relevant attribution and canonical links exist. [Click here to see the original](https://auth0.com/blog/helloworld-with-auth0/).**
-
 **TL;DR:** In this guide, you'll finish adding authentication to our simple [single page application](https://auth0.com/docs/sso/current/single-page-apps), customize Auth0 [Lock](https://auth0.com/docs/libraries/lock/v11), enable [social login](https://auth0.com/blog/social-login-on-the-rise/) with Facebook, and set up [multi-factor authentication](https://auth0.com/docs/multifactor-authentication). If none of this makes any sense, don't worry. We're going to explain that as well.
+
+**This post is original content developed by me for the [Auth0's blog](https://auth0.com/blog) and has been re-posted here as part of an online portfolio with permission. Relevant attribution and canonical links exist. [Click here to see the original](https://auth0.com/blog/helloworld-with-auth0/).**
 
 > ***Note:*** This guide assumes you're on a Mac. Drop us a comment below and we can provide updated instructions for a Windows machine or Ubuntu machine.
 
